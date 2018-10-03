@@ -1,0 +1,1690 @@
+    1  ls
+    2  cat .zshrc| grep zsh_theme
+    3  cat .zshrc| grep ZSH_THEME
+    4  exit
+    5  cs nodeStudy
+    6  cd nodeStudy
+    7  echo $0
+    8  ls
+    9  cd serverTest
+   10  ls
+   11  mv serverjs server.js
+   12  ls
+   13  vim server.js
+   14  cd ../..
+   15  ls
+   16  regdit
+   17  避免
+   18  vim -v
+   19  作者：地球的外星人君\n链接：https://www.zhihu.com/question/19989337/answer/168444287\n来源：知乎\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。\n\n"显示行号\nset nu\n\n"启动时隐去援助提示\nset shortmess=atI\n\n"语法高亮\nsyntax on\n\n"使用vim的键盘模式\n"set nocompatible\n\n"不需要备份\nset nobackup\n\n"没有保存或文件只读时弹出确认\nset confirm\n\n"鼠标可用\nset mouse=a\n\n"tab缩进\nset tabstop=4\nset shiftwidth=4\nset expandtab\nset smarttab\n\n"文件自动检测外部更改\nset autoread\n\n"c文件自动缩进\nset cindent\n\n"自动对齐\nset autoindent\n\n"智能缩进\nset smartindent\n\n"高亮查找匹配\nset hlsearch\n\n"背景色\nset background=dark\n\n"显示匹配\nset showmatch\n\n"显示标尺，就是在右下角显示光标位置\nset ruler\n\n"去除vi的一致性\nset nocompatible\n\n"允许折叠\nset foldenable\n"""""""""""""""""设置折叠"""""""""""""""""""""\n"\n"根据语法折叠\nset fdm=syntax\n\n"手动折叠\n"set fdm=manual\n\n"设置键盘映射，通过空格设置折叠\nnnoremap <space> @=((foldclosed(line('.')<0)?'zc':'zo'))<CR>\n""""""""""""""""""""""""""""""""""""""""""""""\n"不要闪烁\nset novisualbell\n\n"启动显示状态行\nset laststatus=2\n\n"浅色显示当前行\nautocmd InsertLeave * se nocul\n\n"用浅色高亮当前行\nautocmd InsertEnter * se cul\n\n"显示输入的命令\nset showcmd\n\n"被分割窗口之间显示空白\nset fillchars=vert:/\n\nset fillchars=stl:/\n\nset fillchars=stlnc:/
+   20  ls
+   21  curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+   22  ping www.baidu.com
+   23  ls
+   24  cd nodeStudy
+   25  ls
+   26  cd serverTest
+   27  ls
+   28  vim server.js
+   29  cd ~
+   30  cat .vimrc | grep hi CursorLine
+   31  cat .vimrc | grep CursorLine
+   32  less .vimrc
+   33  less -n .vimrc 
+   34  less -n .vimrc | grep CursorLine
+   35  less -n
+   36  less --help
+   37  vim .vimrc
+   38  cd nodeStudy/serverTest
+   39  ls
+   40  vim server.js
+   41  cd ../..
+   42  vim .vimrc
+   43  cp .vimrc .vimrc.back
+   44  ls *.vim
+   45  ls .vimrc*
+   46  mv .vimrc.back .vimrc.yuqh.back
+   47  vim .vimrc
+   48  cd nodeStudy/serverTest
+   49  ls
+   50  vim server.js
+   51  vim router.js
+   52  vim server.js
+   53  vim index.js
+   54  node index.js
+   55  echo 4
+   56  echo$
+   57  echo $
+   58  node
+   59  cd ..
+   60  ls
+   61  mkdir commonTest
+   62  cd commonTest
+   63  vim globalTest.js
+   64  node globalTest.js
+   65  vim globalTest.js
+   66  node globalTest.js
+   67  vim timer.js
+   68  node timer.js
+   69  vim timer.js
+   70  node timer.js
+   71  vim timer.js
+   72  node timer.js
+   73  consoleTime.js
+   74  vim consoleTime.js
+   75  node consoleTime.js
+   76  node -v
+   77  ls
+   78  vim processTest.js
+   79  node processTest.js
+   80  vim processTest.js
+   81  node processTest.js
+   82  vim processTest.js
+   83  node processTest.js
+   84  vim processTest.js
+   85  node processTest.js
+   86  cd ../serverTest
+   87  ls
+   88  less server.js
+   89  cat index.js
+   90  node index.js
+   91  cat router.js
+   92  less server.js
+   93  cat router.js
+   94  cat index.js
+   95  vim ddd
+   96  ls
+   97  rm ddd
+   98  bash
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd commonTest
+  103  cd ..
+  104  mkdir getpostTest
+  105  cd getpostTest
+  106  vim parseTest.js
+  107  node parseTest.js
+  108  vim parseTest.js
+  109  node parseTest.js
+  110  vim parseTest.js
+  111  node parseTest.js
+  112  vim parseTest.js
+  113  node parseTest.js
+  114  mv parseTest.js setTest.js
+  115  mv setTest.js GETTest.js
+  116  vim POSTTest.js
+  117  node POSTTest.js
+  118  vim POSTTest.js
+  119  node POSTTest.js
+  120  vim POSTTest.js
+  121  node POSTTest.js
+  122  vim POSTTest.js
+  123  node POSTTest.js
+  124  vim POSTTest.js
+  125  node POSTTest.js
+  126  cd ..
+  127  ls
+  128  mkdir webTest
+  129  cd webTest
+  130  ls
+  131  vim server.js
+  132  node server.js
+  133  vim index.html
+  134  node server.js
+  135  ls
+  136  mkdir web
+  137  mv index.html ./web
+  138  ls
+  139  cd web
+  140  ls
+  141  cd ..
+  142  vim server.js
+  143  node server.js
+  144  vim client.js
+  145  ls
+  146  cd nodeStudy
+  147  ls
+  148  cd webTest
+  149  node server.js
+  150  node client.js
+  151  ls
+  152  less server.js
+  153  cd ..
+  154  cd webTest
+  155  ls
+  156  npm install express --save
+  157  ls
+  158  npm uninstall express
+  159  ls
+  160  rm package-lock.json
+  161  ls node_modules/*
+  162  ls
+  163  cd node_modules
+  164  ls
+  165  cd ..
+  166  ls
+  167  rm -rf node_modules
+  168  ls
+  169  ls web
+  170  node
+  171  whereis node
+  172  whereis
+  173  whereis node
+  174  which node
+  175  cd /usr/local/bin/no
+  176  cd /usr/local/bin/
+  177  ls
+  178  ls -a
+  179  ls -l
+  180  route
+  181  traceroute www.baidu.com
+  182  traceroute www.csdn.com
+  183  traceroute www.58.com
+  184  traceroute -d www.58.com
+  185  traceroute --help
+  186  man traceroute 
+  187  traceroute -s www.58.com
+  188  ls
+  189  traceroute -s www.58.com
+  190  traceroute -s 14.197.241.138
+  191  man traceroute 
+  192  ls
+  193  ls -l
+  194  cd ../Cellar/node/9.4.0/bin
+  195  ls
+  196  ls -l
+  197  cd ..
+  198  ls
+  199  cd ..
+  200  ls
+  201  cd /usr/local/lib/
+  202  ls
+  203  ls -l
+  204  cd node_modules
+  205  ls
+  206  cd npm
+  207  ls
+  208  cd ~
+  209  ls
+  210  cd nodeStudy/moduleTest
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd serverTest
+  215  ls
+  216  npm install express -g
+  217  cd /usr/local/Cellar
+  218  ls
+  219  cd ../lib
+  220  ls
+  221  cd node_modules
+  222  ls
+  223  npm list express
+  224  ls
+  225  cd express
+  226  ls
+  227  express
+  228  cd ..
+  229  ls
+  230  mkdir expressTest
+  231  cd expressTest
+  232  ls
+  233  vim express_demo.js
+  234  node express_demo.js
+  235  npm install body-parser --save -g
+  236  npm --help
+  237  npm install -g express-generator
+  238  ls
+  239  cd ..
+  240  ls
+  241  express
+  242  ls
+  243  cd ..
+  244  ls
+  245  express --help
+  246  ls
+  247  node express_demo.js
+  248  history
+  249  npm install cookie-parser -g --save
+  250  npm install multer -g --save
+  251  ls
+  252  npm list express
+  253  nmp list express
+  254  npm list express
+  255  node express_demo.js
+  256  express -v
+  257  express -V
+  258  express --version
+  259  vim /etc/profile
+  260  ls
+  261  npm install -d
+  262  ls
+  263  node express_demo.js
+  264  vim /etc/profile
+  265  path
+  266  ls
+  267  path
+  268  where
+  269  cd /usr/local
+  270  ls
+  271  cd lib
+  272  ls
+  273  cd node_modules
+  274  ls
+  275  which node
+  276  ls -l /usr/local/bin/node
+  277  cd /usr/local/bin
+  278  ls
+  279  ls -l
+  280  cd ../Cellar/node
+  281  path
+  282  cd ..
+  283  cd local/Cellar
+  284  ls
+  285  cd node
+  286  ls
+  287  cd 9.4.0/
+  288  ls
+  289  cd lib
+  290  ls
+  291  q\n
+  292  node express_demo.js
+  293  \n
+  294  vim /etc/profile
+  295  ls
+  296  express
+  297  ls
+  298  express -V
+  299  ls
+  300  express demo
+  301  ls
+  302  cd demo
+  303  ls
+  304  npm install
+  305  ls
+  306  less app.js
+  307  cp ../express_demo.js .
+  308  ls
+  309  node express_demo.js
+  310  ls
+  311  vim express_demo.js
+  312  node express_demo.js
+  313  ls
+  314  brew install mysql
+  315  distutil
+  316  distutil disk
+  317  history
+  318  history | grep util
+  319  mysql
+  320  cd /usr/local/bin
+  321  mysql -uroot
+  322  mysql -v
+  323  brew servers start mysql
+  324  brew services start mysql
+  325  mysql
+  326  mysql -uroot
+  327  mysql --version
+  328  sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables
+  329  which mysql
+  330  which mysqld_safe
+  331  sudo /usr/local/bin/mysqld_safe --skip-grant-tables
+  332  exit
+  333  ls
+  334  sudo /usr/local/bin/mysqld_safe --skip-grant-tables
+  335  ls
+  336  diskutil
+  337  diskutil list
+  338  ls
+  339  cd nodeStudy
+  340  ls
+  341  mkdir mysqlTest
+  342  ls
+  343  cd mysqlTest
+  344  ls
+  345  vim test.js
+  346  node test.js
+  347  vim test.js
+  348  node test.js
+  349  vim test.js
+  350  ls
+  351  node test.js
+  352  vim test.js
+  353  npm -g install mysql
+  354  ls
+  355  node test.js
+  356  npm ls
+  357  ls /usr/local/lib
+  358  cd /usr/local/lib/node_modules
+  359  ls
+  360  which node
+  361  ls -l /usr/local/bin/node
+  362  cd /usr/local/Cellar/node
+  363  ls
+  364  cd 9.4.0/
+  365  ls
+  366  cd bin
+  367  ls
+  368  cd ../lib
+  369  ls
+  370  cd dtrace
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd ../libexec
+  375  ls
+  376  cd lib
+  377  ls
+  378  cd node_modules
+  379  ls
+  380  cd npm
+  381  ls
+  382  cd node_modules
+  383  ls
+  384  pwd
+  385  ls | grep http
+  386  ls
+  387  cd ..
+  388  ls
+  389  npm list
+  390  ls
+  391  less package.json
+  392  npm install mysql
+  393  cd nodeStudy/mysqlTest
+  394  ls
+  395  node test.js
+  396  cd node_modules
+  397  ls
+  398  ls | grep mysql
+  399  cd ..
+  400  ls
+  401  less package.json
+  402  cat package.json| grep mysql
+  403  npm uninstall mysql
+  404  cat package.json| grep mysql
+  405  cd /usr/local/lib
+  406  ls
+  407  cd node_modules
+  408  ls
+  409  module.paths
+  410  node
+  411  cd ~
+  412  ls
+  413  node
+  414  pwd
+  415  cd ../../../
+  416  cd ..
+  417  ls
+  418  cd lib
+  419  ls
+  420  ls -al
+  421  echo $path
+  422  export path=./usr/local/lib
+  423  export PATH=./usr/local/lib
+  424  echo $path
+  425  exit
+  426  echo $path
+  427  echo $PATH
+  428  echo $PATH | grep ;
+  429  echo $PATH | grep ';'
+  430  echo $PATH | grep ':'
+  431  export PATH=$PATH;/usr/local/lib
+  432  ls
+  433  echo $PATH
+  434  env
+  435  exit
+  436  export NODE_PATH=/usr/local/lib
+  437  ls
+  438  env
+  439  node
+  440  export NODE_PATH=/usr/local/lib/node_modules
+  441  env
+  442  node
+  443  cd nodeStudy/mysqlTest
+  444  ls
+  445  node test.js
+  446  exit
+  447  ls
+  448  cd ~
+  449  ls
+  450  vim .zshrc
+  451  vim .bash_profile
+  452  ls
+  453  exit
+  454  env
+  455  vim .zshrc
+  456  exit
+  457  env
+  458  vim .zhsrc
+  459  vim .zshrc
+  460  source .zshrc
+  461  env
+  462  cd nodeStudy/mysqlTest
+  463  ls
+  464  node test.js
+  465  nmp list
+  466  ls
+  467  npm list
+  468  ps -ef | grep mysql
+  469  ps -aux | grep mysql
+  470  ps -au | grep mysql
+  471  which mysql
+  472  cd /usr/local/bin/my
+  473  cd /usr/local/bin/
+  474  ls
+  475  mysql
+  476  mysql -uroot
+  477  brew info mysql
+  478  mysql -uroot -p
+  479  ls
+  480  cd ~/nodeStudy/mysqlTest
+  481  ls
+  482  node test.js
+  483  vim test.js
+  484  node test.js
+  485  vim test.js
+  486  show databases;
+  487  mysql -u root
+  488  mysql -u root -p 
+  489  cd Downloads
+  490  ls
+  491  less websites.sql
+  492  pwd
+  493  cd ../nodeStudy/mysqlTest
+  494  node test.js
+  495  vim test.js
+  496  node test.js
+  497  cat test.js
+  498  node test.js
+  499  vim test.js
+  500  node test.js
+  501  vim test.js
+  502  node test.js
+  503  vim test.js
+  504  node test.js
+  505  cd
+  506  ls
+  507  mkdir githome
+  508  cd githome
+  509  git clone ^[[200~https://github.com/manuelkiessling/nodebeginner.org/tree/master/code/application~
+  510  git clone https://github.com/manuelkiessling/nodebeginner.org/tree/master/code/application
+  511  vim ../Downloads/index.js.html
+  512  vim ../Downloads/index.js
+  513  cd ../Downloads
+  514  ls
+  515  ls *.js
+  516  ls
+  517  rm *.exe
+  518  rm *.html
+  519  ls
+  520  rm Firefox-latest-mac-58.0.dmg
+  521  ls
+  522  rm mysql-workbench-community-6.3.10-macos-x86_64.dmg
+  523  rm websites.sql
+  524  ls
+  525  cd demo
+  526  ls
+  527  node app.
+  528  node app.js
+  529  vim app.js
+  530  ls
+  531  cd ..
+  532  ls
+  533  mv %E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.www.java1234.com.pdf nodejs_book.pdf
+  534  ls
+  535  cd %E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.www.java1234.com.pdf.download
+  536  ls
+  537  cd ..
+  538  rm -r %E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.www.java1234.com.pdf.download
+  539  ls
+  540  mv nodejs_book.pdf ../Documents
+  541  cd ../Documents
+  542  ls
+  543  ls -l
+  544  cat 终端
+  545  cat 终端存储的输出
+  546  cd ..
+  547  exit
+  548  gcc
+  549  g++
+  550  ipconfig
+  551  ifconfig | grep 10
+  552  ifconfig | grep 192
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd ..
+  557  nodeProject
+  558  mkdir nodeProject
+  559  cd node
+  560  cd nodeProject
+  561  ls
+  562  git clone https://github.com/lz0211/wedge
+  563  jls
+  564  ls
+  565  c wedge
+  566  ls
+  567  cd wedge
+  568  ls
+  569  ls -l lib
+  570  cd ..
+  571  ls
+  572  cd wedge
+  573  ls
+  574  cd plugins
+  575  ls
+  576  cd ..
+  577  less README.md
+  578  cd
+  579  node
+  580  top
+  581  telnet
+  582  nc
+  583  curl
+  584  curl --help
+  585  curl -v http://www.baidu.com
+  586  curl -v http://www.baidu.com | head -n 10
+  587  brew install telnet
+  588  telnet toutiao.com 80
+  589  export HOMEBREW_NO_AUTO_UPDATE=true
+  590  wget
+  591  brew install wget
+  592  telnet toutiao.com 80
+  593  telnet www.baidu.com 80
+  594  telnet www.baidu.com
+  595  telnet www.taobao.com
+  596  cd nodeStudy
+  597  ls
+  598  less test.js
+  599  node test.js
+  600  telnet 127.0.0.1 8080
+  601  curl -v http://127.0.0.1:8080
+  602  curl -v http://127.0.0.1:8080/web
+  603  node
+  604  ab
+  605  ab --hltp
+  606  man ab
+  607  ps aux | grep node
+  608  kill 19249
+  609  ls
+  610  cd ..
+  611  ls
+  612  cd Documents
+  613  ls
+  614  vim project.txt
+  615  cat project.txt
+  616  ifconfi
+  617  ifconfig
+  618  ifconfig | grep 192
+  619  cd nodeStudy
+  620  ls
+  621  node test.js
+  622  cd /dev
+  623  ls
+  624  history | grep disk
+  625  diskutil list
+  626  cd ~
+  627  exit
+  628  cd Desktop
+  629  ls
+  630  cd Documents
+  631  ls
+  632  cd ebook
+  633  cd python
+  634  ls
+  635  mv xx ..
+  636  cd ..
+  637  ls
+  638  cd x
+  639  ls
+  640  cd Documents
+  641  ls
+  642  ll
+  643  rm ebook的副本.zip
+  644  ls
+  645  g++
+  646  ls
+  647  mkdir testcpp
+  648  cd testcpp
+  649  ls
+  650  vim main.cpp
+  651  cal
+  652  cacl
+  653  cac
+  654  cb
+  655  bc
+  656  g++ main.cpp
+  657  vim main.cpp
+  658  g++ main.cpp
+  659  ls
+  660  ./a.out
+  661  jls
+  662  ls
+  663  cd testcpp
+  664  ls
+  665  gedit main.cpp
+  666  cd Desktop
+  667  ls
+  668  ls -a
+  669  ll
+  670  python
+  671  python3
+  672  ls
+  673  brew install pyhton3
+  674  ls
+  675  mkdir pythonStudy
+  676  cd pythonStudy
+  677  ls
+  678  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/teach/learning.py
+  679  ls
+  680  brew install pyhton3
+  681  uname -a
+  682  vim xunhuan.py
+  683  python xunhuan.py
+  684  python
+  685  exit
+  686  python3
+  687  cd pythonStudy
+  688  ls
+  689  cd pythonStudy
+  690  ls
+  691  python3 learning.py 
+  692  vim xunhuan.py
+  693  python3 xunhuan.py
+  694  python xunhuan.py
+  695  vim xunhuan.py
+  696  python xunhuan.py
+  697  vim xunhuan.py
+  698  vim func.py
+  699  python func.py
+  700  cd pythonStudy
+  701  ls
+  702  python3
+  703  vim func.py
+  704  cd pythonStudy
+  705  ls
+  706  ll
+  707  cd __pycache__
+  708  ls
+  709  cd ..
+  710  vim func.py
+  711  cd pythonStudy
+  712  ls
+  713  vim func.py
+  714  cd pythonStudy
+  715  ls
+  716  rm -r __pycache__
+  717  ls
+  718  vim func.py
+  719  cd pythonStudy
+  720  ls
+  721  vim func.py
+  722  cd pythonStudy
+  723  ls
+  724  vim func.py
+  725  less func.py
+  726  python3 
+  727  vim func.py
+  728  cd pythonStudy
+  729  vim func.py
+  730  cd pythonStudy
+  731  ls
+  732  rm -r __pycache__
+  733  ls
+  734  vim func.py
+  735  ls
+  736  cd pythonStudy
+  737  ls
+  738  vim func.py
+  739  cd pythonStudy
+  740  ls
+  741  vim func2.py
+  742  python3
+  743  vim func2.py
+  744  python3 
+  745  cd pythonStudy
+  746  ls
+  747  rm -r __pycache__
+  748  ls
+  749  vim func2.py
+  750  python 
+  751  vim func2.py
+  752  python3
+  753  ps -aux
+  754  ps -
+  755  ps
+  756  ps -a
+  757  top
+  758  python3
+  759  uname -a
+  760  python3
+  761  cd pythonStudy
+  762  ls
+  763  python3
+  764  cd pythonStudy
+  765  vim dec.py
+  766  cd pythonStudy
+  767  ls
+  768  vim dec.py
+  769  cd pythonStudy
+  770  vim dec.py
+  771  python3
+  772  vim dec.py
+  773  rediget
+  774  redget
+  775  gedit
+  776  cp
+  777  cp dec.py decc.py
+  778  cd pythonStudy
+  779  cp dec.py decc.py
+  780  ls
+  781  vim decc.py
+  782  cd pythonStudy
+  783  ls
+  784  less learning.py
+  785  cat learning.py
+  786  python dec.py
+  787  python3 dec.py
+  788  pip3
+  789  cd pythonStudy
+  790  python3
+  791  cd pythonStudy
+  792  python enumTest.py
+  793  python3 enumTest.py
+  794  cd pythonStudy
+  795  wget
+  796  wget https://github.com/michaelliao/learn-python3/blob/master/samples/oop_advance/orm.py
+  797  ls
+  798  python3
+  799  python3 orm.py
+  800  vim orm.py
+  801  cd pythonStudy
+  802  ls
+  803  cat orm.py
+  804  python3 orm.py
+  805  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54121 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/orm.py 
+  806  u
+  807  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" "PYTHONPATH=/Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/experimental/ptvsd" /usr/local/bin/python3 -m ptvsd --host localhost --port 54127 /Users/yuqh/pythonStudy/orm.py 
+  808  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54133 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/orm.py 
+  809  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54373 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  810  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54378 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  811  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54390 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  812  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54394 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  813  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54409 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  814  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54416 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  815  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54433 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  816  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 54440 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/ioTest.py 
+  817  cd ~
+  818  ls
+  819  cd Downloads
+  820  ls
+  821  cp f4dd9c084ecd41240cd33c73a5c43844.jpg ~/pythonStudy/xx.jpg
+  822  cd ~/pythonStudy
+  823  ls
+  824  cp xx.jpg xx.txt
+  825  ll
+  826  less xx.txt
+  827  rm xx.txt
+  828  ls
+  829  rm -r __pycache__
+  830  ll
+  831  mkdir xxx
+  832  ls
+  833  dir -l
+  834  ls -l
+  835  touch dump.txt
+  836  ls
+  837  cat dump.txt
+  838  饶命
+  839  rm dump.txt
+  840  ls
+  841  rmdir xxx
+  842  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/samples/io/use_json.py
+  843  ls
+  844  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 55028 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/use_json.py 
+  845  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 55058 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/use_json.py 
+  846  mv poolTest poolTest.py
+  847  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 55539 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/poolTest.py 
+  848  nslookup www.python.org
+  849  cd pythonStudy
+  850  python3
+  851  nslookup
+  852  cd pythonStudy
+  853  vim threadTest
+  854  mv threadTest threadTest.py
+  855  python3 threadTest.py
+  856  vim threadTest.py
+  857  python3 threadTest.py
+  858  vim threadTest.py
+  859  python3 threadTest.py
+  860  vim threadTest.py
+  861  python3 threadTest.py
+  862  vim threadTest.py
+  863  python3 threadTest.py
+  864  cd pythonStudy
+  865  vim threadTest.py
+  866  python3 threadTest.py
+  867  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 56876 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/use_threadlocal.py 
+  868  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 56880 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/use_threadlocal.py 
+  869  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 56884 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/use_threadlocal.py 
+  870  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57173 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/task_master.py 
+  871  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57239 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/task_worker.py 
+  872  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57246 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/task_worker.py 
+  873  cd pythonStudy
+  874  python3 task_master.py
+  875  phthon3 task_worker.py
+  876  python3 task_master.py
+  877  ifocnfig
+  878  ipconfig
+  879  ipconfig -r
+  880  python3 task_master.py
+  881  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57284 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/task_worker.py 
+  882  python3 task_master.py
+  883  python3 task_worker.py
+  884  python3
+  885  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57899 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  886  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57905 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  887  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57922 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  888  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57930 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  889  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57936 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  890  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57940 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  891  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 57944 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/func.py 
+  892  top
+  893  cd pythonStudy
+  894  python3
+  895  cd pythonStudy
+  896  python3
+  897  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58474 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/urllib_test.py 
+  898  pip3
+  899  pip3 install pillow
+  900  python3
+  901  cd ../Downloads
+  902  ls
+  903  ll xx.jpg
+  904  rm f4dd9c084ecd41240cd33c73a5c43844的副本.jpg
+  905  mv f4dd9c084ecd41240cd33c73a5c43844.jpg xx.jpg
+  906  ll xx
+  907  ll xx.jpg
+  908  cp ./xx.jpg ../pythonStudy/yy.jpg
+  909  cd ../pythonStudy
+  910  ls
+  911  ll
+  912  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58768 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  913  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58772 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  914  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58785 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  915  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58793 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  916  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58798 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  917  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58802 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  918  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58810 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  919  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58816 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  920  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58846 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  921  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58849 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  922  python3 yzm_test.py
+  923  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58859 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  924  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58864 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  925  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 58867 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/yzm_test.py 
+  926  ls
+  927  rm xx.jpg
+  928  ls
+  929  ll *.jpg
+  930  pip3 install requests
+  931  pip3 install chardet
+  932  pip3 install --upgrade pip3
+  933  pip install --upgrade pip
+  934  pip3 install --upgrade pip
+  935  pip3 install chardet
+  936  pip3 install psutil
+  937  pip3 install virtualenv
+  938  ls
+  939  exit()\n\n\n
+  940  quit
+  941  exit
+  942  cd pythonStudy
+  943  python3
+  944  sudo python3
+  945  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60058 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  946  python3 smtp_test.py
+  947  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60177 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  948  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60182 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  949  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60250 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  950  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60305 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  951  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60313 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  952  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60341 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  953  ls
+  954  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60384 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  955  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60418 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  956  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60464 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  957  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60475 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  958  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60481 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  959  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60554 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/smtp_test.py 
+  960  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/samples/mail/fetch_mail.py
+  961  mv fetch_mail.py pop3_test.py
+  962  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 60614 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/pop3_test.py 
+  963  mysql
+  964  mysql -uroot -p
+  965  mysql -uyuqh -p
+  966  mysql -uroot -p
+  967  mv import\ sqlite3 sqlite_test.py
+  968  python3 sqlite_test.py
+  969  less sqlite_test.py
+  970  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63106 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  971  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63112 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  972  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63115 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  973  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63121 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  974  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63123 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  975  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63127 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  976  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63130 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  977  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63133 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/sqlite_test.py 
+  978  vim /etc/my.cof
+  979  mysql -uroot -p
+  980  pip3 install mysql-connector-python --allow-external mysql-connector-python
+  981  pip3 install mysql-connector
+  982  pip3 install sqlalchemy
+  983  python3
+  984  pip3 pymysql
+  985  pip3 install pymysql
+  986  python3
+  987  cd pythonStudy
+  988  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/samples/db/do_sqlalchemy.py
+  989  python3 do_sqlalchemy.py
+  990  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63566 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/do_sqlalchemy.py 
+  991  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63571 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/do_sqlalchemy.py 
+  992  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63577 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/do_sqlalchemy.py 
+  993  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63583 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/do_sqlalchemy.py 
+  994  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 63590 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/do_sqlalchemy.py 
+  995  exit
+  996  pip3 list
+  997  pip list
+  998  vim web_test.py
+  999  vim web_server.py
+ 1000  cd pythonStudy
+ 1001  python3 web_server.py
+ 1002  ls
+ 1003  mv *.py ./pythonStudy
+ 1004  ls
+ 1005  pip3 install flask
+ 1006  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/samples/web/do_flask.py
+ 1007  python3 do_flask.py
+ 1008  pip3 install jinja
+ 1009  pip3 install jinja2
+ 1010  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 49241 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/asyncio_test.py 
+ 1011  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 49250 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/asyncio_test.py 
+ 1012  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 49252 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/asyncio_test.py 
+ 1013  cd pythonStudy
+ 1014  wget https://raw.githubusercontent.com/michaelliao/learn-python3/master/samples/async/async_wget.py
+ 1015  python3 async_wget.py
+ 1016  cd /Users/yuqh/pythonStudy ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/yuqh/.vscode/extensions/ms-python.python-2018.4.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/yuqh/pythonStudy 49438 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/yuqh/pythonStudy/asyncio_test.py 
+ 1017  pip3 install aiohttp
+ 1018  git
+ 1019  git --version
+ 1020  pip3 install aiomysql
+ 1021  cd ..
+ 1022  mkdir project
+ 1023  ls
+ 1024  cd project
+ 1025  mkdir python
+ 1026  cd python
+ 1027  ls
+ 1028  pwd
+ 1029  mkdir webblog
+ 1030  cd webblog
+ 1031  ls
+ 1032  mkdir conf
+ 1033  mkdir www
+ 1034  mkdir dist
+ 1035  cd ww
+ 1036  cd www
+ 1037  mkdir static
+ 1038  mkdir templates
+ 1039  cd ..
+ 1040  ls
+ 1041  cd www
+ 1042  git clone https://github.com/michaelliao/awesome-python3-webapp/tree/day-01
+ 1043  cwd
+ 1044  pwd
+ 1045  cd pythonStudy
+ 1046  python3
+ 1047  cd pythonStudy
+ 1048  ls
+ 1049  less use_json.py
+ 1050  ls
+ 1051  cat dfdsfsdf
+ 1052  rm dfdsfsdf
+ 1053  cd pythonStudy
+ 1054  ls
+ 1055  mkdir pickle
+ 1056  cd pickle
+ 1057  python3
+ 1058  cd pythonStudy
+ 1059  ls
+ 1060  cd pickle
+ 1061  ls
+ 1062  cat pickle.file
+ 1063  　ls
+ 1064  ls
+ 1065  cd project
+ 1066  ls
+ 1067  cd python
+ 1068  ls
+ 1069  vim github.address
+ 1070  cat github.address
+ 1071  mv ../../Downloads/ecommerce_website_development-master .
+ 1072  ls
+ 1073  vim github.address
+ 1074  wgethttps://blog.csdn.net/xun527/article/details/78376340
+ 1075  wget https://blog.csdn.net/xun527/article/details/78376340
+ 1076  cd ../../project/python/
+ 1077  ls
+ 1078  cat 78376340
+ 1079  mv 78376340 xx.html
+ 1080  less github.address
+ 1081  cd ecommerce_website_development-master
+ 1082  ls
+ 1083  pip3 install -r requirements.txt
+ 1084  python3 manage.py
+ 1085  ls
+ 1086  cd ..
+ 1087  ls
+ 1088  git clone https://github.com/weilanhanf/daily_fresh_demo
+ 1089  ls
+ 1090  cd daily_fresh_demo
+ 1091  ls
+ 1092  python3 manage.py makemigrations
+ 1093  ls
+ 1094  python3 manage.py migrate
+ 1095  ls
+ 1096  python3 manage.py
+ 1097  vim manage.py
+ 1098  cd ..
+ 1099  cd daily_fresh_demo
+ 1100  ls
+ 1101  less README.md
+ 1102  python3 manage.py
+ 1103  cd ..
+ 1104  cd webblog
+ 1105  ls
+ 1106  cd dist
+ 1107  ls
+ 1108  cd ..
+ 1109  ls
+ 1110  cd ..
+ 1111  cd ecommerce_website_development-master
+ 1112  ls
+ 1113  python3 manage.py
+ 1114  cd ..
+ 1115  ls
+ 1116  cd ecommerce_website_development-master
+ 1117  ls
+ 1118  less README.md
+ 1119  ls
+ 1120  cd dailyfresh
+ 1121  ls
+ 1122  python3 wsgi.py
+ 1123  cd ..
+ 1124  ls
+ 1125  cd ../daily_fresh_demo
+ 1126  ls
+ 1127  cd daily_fresh_demo
+ 1128  ls
+ 1129  less wsgi.py
+ 1130  python3 wsgi.py
+ 1131  cd ..
+ 1132  cd daily_fresh_demo
+ 1133  ls
+ 1134  python3 daily_fresh_demo/wsgi.py
+ 1135  python3 manage.py runserver
+ 1136  cd pythonStudy
+ 1137  cd ../project
+ 1138  ls
+ 1139  cd python
+ 1140  cd ecommerce_website_development-master/
+ 1141  pyhton3 manage.py runserver
+ 1142  python3 manage.py runserver
+ 1143  cd project
+ 1144  ls
+ 1145  cd python
+ 1146  ls
+ 1147  cd daily_fresh_demo
+ 1148  ls
+ 1149  python3 manage.py runserver
+ 1150  sl
+ 1151  ls
+ 1152  whereis *.settings
+ 1153  ls -a
+ 1154  ls
+ 1155  cd daily_fresh_demo
+ 1156  ls
+ 1157  less settings.py
+ 1158  python3 manage.py runserver
+ 1159  cd ..
+ 1160  ls
+ 1161  python3 manage.py runserver
+ 1162  cd ../..
+ 1163  ls
+ 1164  cd python
+ 1165  ls
+ 1166  django-admin
+ 1167  django-admin.py startproject testDjango
+ 1168  ls
+ 1169  cd testDjango
+ 1170  ls
+ 1171  python3 manage.py runserver
+ 1172  cd project/python/testDjango
+ 1173  ls
+ 1174  cd testDjango
+ 1175  ls
+ 1176  cat settings.py
+ 1177  ls
+ 1178  swgi.py
+ 1179  less wsgi.py
+ 1180  cd ..
+ 1181  ls
+ 1182  cd ..
+ 1183  ls
+ 1184  django-admin
+ 1185  django-admin ffff
+ 1186  cd testDjango
+ 1187  tree
+ 1188  brew isntall tree
+ 1189  brew install tree
+ 1190  tree
+ 1191  python manage.py runserver
+ 1192  python3 manage.py runserver
+ 1193  python3 manage.py runserver 0.0.0.0:9090
+ 1194  cd testDjango
+ 1195  ls
+ 1196  vim view.py
+ 1197  vim urls.py
+ 1198  tree
+ 1199  python3 manage.py runserver
+ 1200  vim urls.py
+ 1201  python3 manage.py runserver
+ 1202  vim urls.py
+ 1203  python3 manage.py runserver
+ 1204  vim urls.py
+ 1205  python3 manage.py runserver
+ 1206  vim urls.py
+ 1207  python3 manage.py runserver
+ 1208  tree | grep '*.py'
+ 1209  ls
+ 1210  tree
+ 1211  less settings.py
+ 1212  vim settings.py
+ 1213  vim view.py
+ 1214  mkdir templates
+ 1215  vim templates/hello.html
+ 1216  python3 manage.py runserver
+ 1217  vim view.py
+ 1218  python3 manage.py runserver
+ 1219  vim templates/base.html
+ 1220  ls
+ 1221  vim templates/hello.html
+ 1222  python3 manage.py runserver
+ 1223  mysql -uroot -p
+ 1224  cd testDjango
+ 1225  cd ..
+ 1226  vim testDjango/settings.py
+ 1227  django-admin startapp TestModel
+ 1228  ls
+ 1229  tree
+ 1230  vim TestModel/models.py
+ 1231  vim testDjango/settings.py
+ 1232  python3 manage.py migrate
+ 1233  pip3 install mysql-python
+ 1234  python3 manage.py migrate
+ 1235  pip3 install mysqlclient
+ 1236  python3 manage.py migrate
+ 1237  python3 manage.py makemigrations TestModel
+ 1238  python3 manage.py migrate TestModel
+ 1239  vim testDjango/urls.py
+ 1240  vim testDjango/testdb.py
+ 1241  python3 manage.py runserver
+ 1242  cd..
+ 1243  cd ..
+ 1244  ls
+ 1245  cd daily_fresh_demo
+ 1246  ls
+ 1247  python3 manage.py runserver
+ 1248  python3 manage.py migrate
+ 1249  less daily_fresh_demo/settings.py
+ 1250  vim daily_fresh_demo/settings.py
+ 1251  python3 manage.py runserver
+ 1252  pip3 install django-haystack
+ 1253  pip3 install whoosh
+ 1254  python3 manage.py runserver
+ 1255  pip3 install jieb
+ 1256  a
+ 1257  pip3 install jieba
+ 1258  python3 manage.py runserver
+ 1259  cd project/python/ecommerce_website_development-master
+ 1260  ls
+ 1261  vim dailyfresh/settings.py
+ 1262  python3 manage.py migrate
+ 1263  mysql
+ 1264  mysql -uroot -p
+ 1265  cd project/python/ecommerce_website_development-master
+ 1266  python3 manage.py migrate
+ 1267  python3 manage.py runserver
+ 1268  less *.md
+ 1269  python3
+ 1270  cd project/python/testDjango
+ 1271  ls
+ 1272  cd testDjango
+ 1273  ls
+ 1274  cat __init__.py
+ 1275  cat settings.py| grep 'pymysql'
+ 1276  cat settings.py
+ 1277  cd ..
+ 1278  ls
+ 1279  cd ..
+ 1280  ls
+ 1281  cd daily_fresh_demo
+ 1282  ls
+ 1283  ll -a
+ 1284  treee
+ 1285  tree
+ 1286  cd daily_fresh_demo
+ 1287  ls
+ 1288  cat __init__.py
+ 1289  vim __init__.py
+ 1290  cd ..
+ 1291  tree
+ 1292  cd ..
+ 1293  cd daily_fresh_demo
+ 1294  git 
+ 1295  ls
+ 1296  cd df_user
+ 1297  ls
+ 1298  cat tests.py
+ 1299  ls
+ 1300  cat __init__.py
+ 1301  cd __pycache__
+ 1302  ls
+ 1303  cd ..
+ 1304  ls
+ 1305  cd df_goods
+ 1306  ls
+ 1307  rm -r __pycache__
+ 1308  ls
+ 1309  cd ..
+ 1310  ls
+ 1311  cd static
+ 1312  ls
+ 1313  tree
+ 1314  ls
+ 1315  cd ..
+ 1316  ls
+ 1317  cd daily_fresh_demo
+ 1318  ls
+ 1319  rm -r __pycache__
+ 1320  cd ..
+ 1321  cd df_order
+ 1322  ls
+ 1323  rm -r __pycache__
+ 1324  tree
+ 1325  cd migrations
+ 1326  rm -r __pycache__
+ 1327  ls
+ 1328  cd ..
+ 1329  ls
+ 1330  cd ..
+ 1331  ls
+ 1332  cd templates
+ 1333  tree
+ 1334  cd ..
+ 1335  ls
+ 1336  cd df_user
+ 1337  ls
+ 1338  rm -r __pycache__
+ 1339  cd migrations
+ 1340  ls
+ 1341  rm -r __pycache__
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  cd df_cart
+ 1346  ls
+ 1347  rm -r __pycache__
+ 1348  cd migrations
+ 1349  rm -r __pycache__
+ 1350  ls
+ 1351  cd ..
+ 1352  ls
+ 1353  cd whoosh_index
+ 1354  tree
+ 1355  cd ..
+ 1356  cd df_goods
+ 1357  ls
+ 1358  cd migrations
+ 1359  rm -r __pycache__
+ 1360  ls
+ 1361  cd ..
+ 1362  tree
+ 1363  django-amdin manage.py runserver
+ 1364  pyhton3 manage.py runserver
+ 1365  python3 manage.py runserver
+ 1366  pip
+ 1367  pip update django
+ 1368  cd project/python/ecommerce_website_development-master
+ 1369  ls
+ 1370  pip3 uninstall -r requirements.txt
+ 1371  pip3 install list
+ 1372  pip3 uninstall list
+ 1373  pip3
+ 1374  pip3 list
+ 1375  virtualenv --no-site-packages venv
+ 1376  ls
+ 1377  cd venv
+ 1378  ls
+ 1379  tree
+ 1380  ls
+ 1381  cd bin
+ 1382  ls
+ 1383  cd ..
+ 1384  source venv/bin/activate
+ 1385  ls
+ 1386  vim requirements.txt
+ 1387  cp requirements.txt requirements.txt.backup
+ 1388  ls
+ 1389  vim requirements.txt
+ 1390  pip3 install -r requirements.txt
+ 1391  pip3 list
+ 1392  pip3 uninstall -r requirements.txt
+ 1393  pip3 list
+ 1394  deactivate
+ 1395  ls
+ 1396  cd ..
+ 1397  virtualEnv
+ 1398  mkdir virtualEnv
+ 1399  cd virtualEnv
+ 1400  cd ..
+ 1401  rmdir virtualEnv
+ 1402  python3 manage.py runserver/
+ 1403  cd project/python/
+ 1404  mkdir virtualEnv
+ 1405  cd virtualEnv
+ 1406  git clone https://github.com/xaincai/dailyfresh
+ 1407  ls
+ 1408  cp -r dailyfresh df_buckup
+ 1409  ls
+ 1410  cd dailyfresh
+ 1411  find . -name '*.pyc' | xargs rm -f
+ 1412  git status
+ 1413  cd ..
+ 1414  ls
+ 1415  virtualenv --no-site-packages venv
+ 1416  source venv/bin/activate
+ 1417  pip3 install django
+ 1418  cd Downloads/
+ 1419  ls
+ 1420  cp python开发指南.pdf ../Documents/ebook/python
+ 1421  ls
+ 1422  cp python_web_Crawler_DA_ML_DL-master ../Documents/ebook/python
+ 1423  cp -r python_web_Crawler_DA_ML_DL-master ../Documents/ebook/python
+ 1424  ls
+ 1425  cd dailyfresh
+ 1426  python3 manage.py runserver
+ 1427  cd ll
+ 1428  cd ../project
+ 1429  ls
+ 1430  cd python/virtualEnv
+ 1431  ls
+ 1432  source venv/bin/activate
+ 1433  ls
+ 1434  pip3 install django-tinymce
+ 1435  python3 manage.py runserver
+ 1436  pip3 list
+ 1437  ls
+ 1438  pip3 list
+ 1439  history
+ 1440  history | grep mysqlclient
+ 1441  history | grep 'mysqlclient'
+ 1442  pip3 install mysqlclient
+ 1443  python3 manage.py runserver
+ 1444  python3 manage.py migrate
+ 1445  ls
+ 1446  vim df_cart/models.py
+ 1447  python3 manage.py makemigrations
+ 1448  vim df_cart/models.py
+ 1449  python3 manage.py makemigrations
+ 1450  vim df_order/models.py
+ 1451  python3 manage.py makemigrations
+ 1452  vim df_order/models.py
+ 1453  python3 manage.py makemigrations
+ 1454  vim df_goods/models.py
+ 1455  python3 manage.py makemigrations
+ 1456  vim df_goods/models.py
+ 1457  vim df_goods/admin.py
+ 1458  python3 manage.py makemigrations
+ 1459  vim df_user/views.py
+ 1460  python3 manage.py makemigrations
+ 1461  vim df_cart/urls.py
+ 1462  python3 manage.py makemigrations
+ 1463  cd df_cart/
+ 1464  ls
+ 1465  less views.py
+ 1466  vim views.py
+ 1467  cd ..
+ 1468  python3 manage.py makemigrations
+ 1469  vim df_cart/urls.py
+ 1470  python3 manage.py makemigrations
+ 1471  ls ./df_cart
+ 1472  vim df_cart/views.py
+ 1473  cd ../
+ 1474  ls
+ 1475  cd dailyfresh
+ 1476  ls
+ 1477  cd df_goods
+ 1478  ls
+ 1479  vim urls.py
+ 1480  cd ..
+ 1481  ls
+ 1482  cat list.txt
+ 1483  cd ..
+ 1484  exit
+ 1485  deactivate
+ 1486  ls
+ 1487  cd ..
+ 1488  ls
+ 1489  mkdir dailyVE
+ 1490  cd dailyVE
+ 1491  git clone https://github.com/yuqlh/Dailyfresh
+ 1492  virtualenv --no-site-packages venv
+ 1493  ls
+ 1494  cd Dailyfresh
+ 1495  cd ..
+ 1496  source venv/bin/activate
+ 1497  cd Dailyfresh
+ 1498  ls
+ 1499  pip3 install -r requirements.txt
+ 1500  cat requirements.txt
+ 1501  pip3 list
+ 1502  vim requirements.txt
+ 1503  django
+ 1504  django-amdin.py
+ 1505  vim requirements.txt
+ 1506  pip3 install -r requirements.txt
+ 1507  vim requirements.txt
+ 1508  pip3 install -r requirements.txt
+ 1509  mysql
+ 1510  mysql -u root -p
+ 1511* ls
+ 1512* cd daliyfresh
+ 1513* ls
+ 1514* vim settings.py
+ 1515  cd project/python/dailyVE
+ 1516  ls
+ 1517  cd Dailyfresh
+ 1518  ls
+ 1519  mysql -uroot -p
+ 1520* ls
+ 1521* cd ..
+ 1522* ls
+ 1523* python3 manage.py runserver
+ 1524* ls
+ 1525* find . -name '*.pyc' | xargs rm -f
+ 1526* python3 manage.py runserver
+ 1527  ls
+ 1528  cd daliyfresh
+ 1529  ls
+ 1530  vim apps/goods/admin.py
+ 1531* python3 manage.py runserver
+ 1532* pip3 install pillow
+ 1533* python3 manage.py runserver
+ 1534* python3 manage.py rebuild_index
+ 1535  ls
+ 1536  cd extra_apps.whoosh_index
+ 1537  ls
+ 1538  ll -a
+ 1539  cd ..
+ 1540  ls
+ 1541  vim settings.py
+ 1542* cd ..
+ 1543* ls
+ 1544* cd Dailyfresh/
+ 1545* ls
+ 1546* vim daliyfresh/settings.py
+ 1547* ls
+ 1548* cd daliyfresh
+ 1549* ls
+ 1550* cd __pycache__
+ 1551* ls
+ 1552* cd ..
+ 1553* ls
+ 1554* vim settings.py
+ 1555* vim setq
+ 1556* vim settings.py
+ 1557* ll -a
+ 1558* ls
+ 1559* cd extra_apps.whoosh_index
+ 1560* ls
+ 1561* vim MAIN_iknh3vi0ciozllw7.seg
+ 1562* vim _MAIN_16.toc
+ 1563* cd ..
+ 1564* ls
+ 1565* cd ..
+ 1566* python3 manage.py runserver
+ 1567  vim apps/user/urls.py
+ 1568* python3 manage.py runserver
+ 1569  vim apps/user/views.py
+ 1570* python3 manage.py runserver
+ 1571  cd apps
+ 1572  ls
+ 1573  cd goods
+ 1574  vim urls.py
+ 1575* python3 manage.py runserver
+ 1576  vim views.py
+ 1577  cd ../order
+ 1578  vim urls.py
+ 1579  vim views.py
+ 1580  cd ../cart
+ 1581  vim urls.py
+ 1582  vim views.py
+ 1583* python3 manage.py runserver
+ 1584  cd ../goods
+ 1585  vim urls.py
+ 1586  vim views.py
+ 1587  vim urls.py
+ 1588* python3 manage.py runserver
+ 1589  cd ../order
+ 1590  vim urls.py
+ 1591  vim views.py
+ 1592  ls
+ 1593  vim urls.py
+ 1594* deactivate
+ 1595* python3 manage.py runserver
+ 1596* ls
+ 1597* cd ..
+ 1598* ls
+ 1599* source venv/bin/activate
+ 1600* cd Dailyfresh
+ 1601* ls
+ 1602* python3 manage.py runserver
+ 1603  find . -name '*.pyc' | xargs rm -f
+ 1604* python3 manage.py runserver
+ 1605  vim urls.py
+ 1606  ls
+ 1607  vim views.py
+ 1608  vim urls.py
+ 1609* python3 manage.py runserver
+ 1610  vim urls.py
+ 1611  git diff
+ 1612  git diff urls.py
+ 1613  vim urls.py
+ 1614* python3 manage.py runserver
+ 1615  vim urls.py
+ 1616* python3 manage.py runserver
+ 1617  mv urls.py urls.py.backup
+ 1618* python3 manage.py runserver
+ 1619  mv urls.py.backup urls.py
+ 1620  cp urls.py urls.py.backup
+ 1621  vim urls.py
+ 1622* python3 manage.py runserver
+ 1623  cd ..
+ 1624  ls
+ 1625  cd ..
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  vim problems.txt
+ 1630  ls
+ 1631  cd daliyfresh/apps/goods/
+ 1632  ls
+ 1633  vim search_indexes.py
+ 1634* python3 manage.py runserver
+ 1635* python manage.py createsuperuser
+ 1636* python3 manage.py runserver
+ 1637  cd ..
+ 1638  cd ~
+ 1639  LS
+ 1640  ls
+ 1641  cd githome
+ 1642  s
+ 1643  ls
+ 1644  ll -a
+ 1645  mkdir learngit
+ 1646  cd learngit
+ 1647  pwd
+ 1648  git init
+ 1649  ls -a
+ 1650  ls -ah
+ 1651  vim readme.txt
+ 1652  ls
+ 1653  git add readme.txt
+ 1654  git status
+ 1655  git commit -m 'add a new file'
+ 1656  git config --global --edit
+ 1657  git commit --amend --reset-author
+ 1658  git status
+ 1659  ls
+ 1660  nono file1.txt
+ 1661  nano file1.txt
+ 1662  touch file3.txt
+ 1663  ls
+ 1664  git status
+ 1665  git add file1.txt file3.txt
+ 1666  git status
+ 1667  git commit -m 'add 2 files'
+ 1668  git config --global --edit
+ 1669  git config --global user.name 'yuqlh'
+ 1670  git config --global user.email yuqh208@163.com
+ 1671  git commit --amend --reset-author
+ 1672  vim readme.txt
+ 1673  git status
+ 1674  git diff
+ 1675  git diff readme.txt
+ 1676  git commit -m 'append '
+ 1677  git commit -m 'append'
+ 1678  git status
+ 1679  git commit -m 'dfa'
+ 1680  git diff
+ 1681  git commit -a
+ 1682  git commit -a 'df'
+ 1683  git commit -a "fdf"
+ 1684  ls
+ 1685  git status
+ 1686  git log
+ 1687  git add readme.txt
+ 1688  git commit -m 'add something'
+ 1689  git log
+ 1690  git log --pretty=oneline
