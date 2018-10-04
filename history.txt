@@ -1688,3 +1688,170 @@
  1688  git commit -m 'add something'
  1689  git log
  1690  git log --pretty=oneline
+ 1691  history > history.txt
+ 1692  less history.txt
+ 1693  git log
+ 1694  git reset --hard 1eac
+ 1695  git log
+ 1696  git reset --hard d6
+ 1697  git log
+ 1698  git reset --hard d6c2
+ 1699  git log
+ 1700  cat readme.txt
+ 1701  git reflog
+ 1702  git reset --hard 1eac
+ 1703  git log
+ 1704  git relog
+ 1705  git reflog
+ 1706  git status
+ 1707  git add history.txt
+ 1708  git commit -m 'add mac history'
+ 1709  git diff HEAD -- readme.txt
+ 1710  vim readme.txt
+ 1711  git diff HEAD -- readme.txt
+ 1712  git status
+ 1713  git chekout 
+ 1714  git checkout 
+ 1715  git checkout -- readme.txt
+ 1716  cat readme.txt
+ 1717  history > history.txt
+ 1718  git add history.txt
+ 1719  git status
+ 1720  git reset HEAD readme.txt
+ 1721  git reset HEAD history.txt
+ 1722  git status
+ 1723  git reset HEAD
+ 1724  git log
+ 1725  git checkout -- readme.txt
+ 1726  git status
+ 1727  git checkout -- history.txt
+ 1728  ls
+ 1729  rm file3.txt
+ 1730  git status
+ 1731  git checkout -- file3.txt
+ 1732  rm file3.txt
+ 1733  git status
+ 1734  git rm file3.txt
+ 1735  git commit -m 'remove file3.txt'
+ 1736  git status
+ 1737  ls
+ 1738  git log
+ 1739  git reset 53653
+ 1740  git log
+ 1741  git reflog
+ 1742  git commit -m 'move to pre vistion'
+ 1743  git status
+ 1744  ls
+ 1745  git log
+ 1746  git reset --hard HEAD
+ 1747  ls
+ 1748  git rm file3.txt
+ 1749  git status
+ 1750  git commit -m 'delete test'
+ 1751  git status
+ 1752  git log
+ 1753  git reflog
+ 1754  ls
+ 1755* ls -a | grep '.ssh'
+ 1756* ls -a
+ 1757* ssh-keygen -t rsa -C 'yuqh208@163.com'
+ 1758* vim .ssh/id_rsa
+ 1759* ls .ssh
+ 1760* less id_rsa.pub
+ 1761* less .ssh/id_rsa.pub
+ 1762* nano .ssh/id_rsa.pub
+ 1763* ls
+ 1764* vim .ssh/id_rsa.pub
+ 1765* cat .ssh/id_rsa.pub
+ 1766  ls
+ 1767  git remote add origin git@github.com:yuqlh/learngit.git
+ 1768  git push -u origin master
+ 1769  cd ..
+ 1770  ls
+ 1771  git clone git@github.com:yuqlh/dailyfresh.git
+ 1772  ls
+ 1773  cd dailyfresh
+ 1774  ls
+ 1775  cd ..
+ 1776  git clone git@github.com:yuqlh/100_Days_of_ML_Code.git
+ 1777  ls
+ 1778  cd 100_Days_of_ML_Code
+ 1779  ls
+ 1780  cd ..
+ 1781  ls -a
+ 1782  cd 100_Days_of_ML_Code
+ 1783  ls
+ 1784  ls -a
+ 1785  cd .git
+ 1786  ls
+ 1787  d ..
+ 1788  cd ..
+ 1789  ls
+ 1790  vim README.md
+ 1791  git add README.md
+ 1792  git commit -m 'xiugai readme.md'
+ 1793  ls
+ 1794  git push origin master
+ 1795  vim README.md
+ 1796  git log
+ 1797  git reset --hard 07f9
+ 1798  less README.md
+ 1799  git reflog
+ 1800  git reset --hard c427
+ 1801  less README.md
+ 1802  vim README.md
+ 1803  git add README.md
+ 1804  git commit -m 'xiugai'
+ 1805  git push orgin master
+ 1806  git push origin master
+ 1807  cd ..
+ 1808  ls
+ 1809  cd learngit
+ 1810  git checkout -b dev
+ 1811  git branch
+ 1812  ls
+ 1813  vim readme.txt
+ 1814  git add readme.txt
+ 1815  git commit -m 'test branch'
+ 1816  cd ..
+ 1817  cd learngit
+ 1818  git checkout master 
+ 1819  git status
+ 1820  git merge dev
+ 1821  less readme.txt
+ 1822  git branch dev 
+ 1823  git checkout dev 
+ 1824  git checkout master 
+ 1825  git branch
+ 1826  git branch -d dev
+ 1827  git branch -b ft
+ 1828  git checkout -b ft
+ 1829  vim readme.txt
+ 1830  git add readme.txt
+ 1831  git commit -m 'dfa'
+ 1832  git checkout master 
+ 1833  vim readme.txt
+ 1834  git add readme.txt
+ 1835  git commit -m 'aad'
+ 1836  git merge ft
+ 1837  git status
+ 1838  git diff readme.txt
+ 1839  vim readme.txt
+ 1840  git add readme.txt
+ 1841  git commit -m 'conflict'
+ 1842  git status
+ 1843  git log
+ 1844  git log --graph
+ 1845  git branch -d ft 
+ 1846  git log --graph
+ 1847  git branch -b dev 
+ 1848  git checkout -b dev 
+ 1849  git rm file1.txt
+ 1850  git commit -m 'rm'
+ 1851  git checkout master 
+ 1852  git merge --no-ff -m 'merge no-ff' dev 
+ 1853  git log --graph
+ 1854  git status
+ 1855  git stash
+ 1856  git stash list
+ 1857  ls
